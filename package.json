@@ -10,6 +10,7 @@
     "test:ui": "vitest --ui",
     "test:coverage": "vitest run --coverage",
     "lint": "eslint --ignore-path .gitignore --fix src",
+    "deploy": "npm run build && cd ./cdk-deployment && cdk deploy --require-approval never",
     "prettier": "prettier src --write"
   },
   "dependencies": {

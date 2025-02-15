@@ -36,3 +36,16 @@ Runs tests in console, in browser or with coverage.
 ### `lint`, `prettier`
 
 Runs linting and formatting for all files in `src` folder.
+
+# AWS CDK
+
+This is a blank project for CDK development with TypeScript.
+All setting are in the cdk-deployment folder.
+
+- CloudFront URL: https://d2k1qbtyzqbbxh.cloudfront.net/
+- S3-website: http://my-demo-aws-app-bucket.s3-website-eu-west-1.amazonaws.com/
+
+## Useful commands
+
+- `npm run build` compile the project to the final static files
+- `npm run deploy` create build and deploy the app this to AWS
